@@ -25,35 +25,35 @@ using namespace jp50;
 
 int main() {
 
-	cout << "==============================================================" << endl;
-	cout << "      '日语五十音图' 测试开始，按Ctrl+C结束测验!     " << endl;
-	cout << "==============================================================" << endl;
+    cout << "==============================================================" << endl;
+    cout << "      '日语五十音图' 测试开始，按Ctrl+C结束测验!     " << endl;
+    cout << "==============================================================" << endl;
 
-	srand(time(0));
+    srand(time(0));
 
-	JPTest *jp = new JPTest();
+    JPTest *jp = new JPTest();
 
-	jp->init_letters();
+    jp->init_letters();
 
-	cout << "\n\n" << "==> 第一类型: 随机默写\n\n" << endl;
+    cout << "\n\n" << "==> 第一类型: 随机默写\n\n" << endl;
 
-	for (int i = 0; i< 25; i++){
-		jp->test_letters();
-	}
+    for (int i = 0; i< 25; i++){
+        jp->test_letters();
+    }
 
-	cout << "\n\n" << "==> 第二类型: 按行默写\n\n" << endl;
+    cout << "\n\n" << "==> 第二类型: 按行默写\n\n" << endl;
 
-	for(int i = 0; i< 5;i++){
-		jp->test_rows();
-	}
+    for(int i = 0; i< 5;i++){
+        jp->test_rows();
+    }
 
-	cout << "\n\n" << "==> 第三类型: 按段默写\n\n" << endl;
+    cout << "\n\n" << "==> 第三类型: 按段默写\n\n" << endl;
 
-	for(int i = 0; i< 3;i++){
-		jp->test_columns();
-	}
+    for(int i = 0; i< 3;i++){
+        jp->test_columns();
+    }
 
-	jp->result();
+    jp->result();
 
-	return 0;
+    return 0;
 }

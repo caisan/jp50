@@ -11,49 +11,49 @@
 
 namespace jp50 {
 
-	class Letter{
+    class Letter{
 
-	public:
-		Letter(std::string first,std::string second,std::string roman):
-			first(first),second(second),roman(roman),num_of_good(0),num_of_wrong(0){}
+    public:
+        Letter(std::string first,std::string second,std::string roman):
+            first(first),second(second),roman(roman),num_of_good(0),num_of_wrong(0){}
 
-		~Letter();
+        ~Letter();
 
-		void display();
+        void display();
 
-		std::string get_first();
-		std::string get_second();
-		std::string get_roman();
+        std::string get_first();
+        std::string get_second();
+        std::string get_roman();
 
-		void test_first();
-		void test_second();
-		void test_roman();
-
-	private:
-		std::string first;		// 平假名
-		std::string second;		// 片假名
-		std::string roman;		// 罗马字母拼音
-		int num_of_good;
-		int num_of_wrong;
-	};                          // class Letter
-
-	class JPTest{
-
-	public:
-		JPTest();
-        ~JPTest();
-
-		void init_letters();
-
-		void test_letters();
-		void test_rows();
-		void test_columns();
-
-		void result();
+        void test_first();
+        void test_second();
+        void test_roman();
 
     private:
-		Letter* letters[50];
-	};                          // class JPTest
+        std::string first;        // 平假名
+        std::string second;        // 片假名
+        std::string roman;        // 罗马字母拼音
+        int num_of_good;
+        int num_of_wrong;
+    };                          // class Letter
+
+    class JPTest{
+
+    public:
+        JPTest();
+        ~JPTest();
+
+        void init_letters();
+
+        void test_letters();
+        void test_rows();
+        void test_columns();
+
+        void result();
+
+    private:
+        Letter* letters[50];
+    };                          // class JPTest
 
 } // namespace jp50
 
