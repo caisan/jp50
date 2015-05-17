@@ -17,7 +17,9 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+
 #include "Letter.hpp"
+#include "JPTest.hpp"
 
 using namespace std;
 using namespace jp50;

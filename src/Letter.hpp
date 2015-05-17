@@ -16,8 +16,8 @@ namespace jp50 {
     public:
         Letter(std::string first,std::string second,std::string roman):
             first(first),second(second),roman(roman),num_of_good(0),num_of_wrong(0){}
-
-        ~Letter();
+        
+        virtual ~Letter();
 
         void display();
 
@@ -37,23 +37,7 @@ namespace jp50 {
         int num_of_wrong;
     };                          // class Letter
 
-    class JPTest{
 
-    public:
-        JPTest();
-        ~JPTest();
-
-        void init_letters();
-
-        void test_letters();
-        void test_rows();
-        void test_columns();
-
-        void result();
-
-    private:
-        Letter* letters[50];
-    };                          // class JPTest
 
 } // namespace jp50
 
