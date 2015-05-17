@@ -14,8 +14,7 @@ namespace jp50 {
     class Letter{
 
     public:
-        Letter(std::string first,std::string second,std::string roman):
-            first(first),second(second),roman(roman),num_of_good(0),num_of_wrong(0){}
+        Letter(std::string first,std::string second,std::string roman);
         
         virtual ~Letter();
 

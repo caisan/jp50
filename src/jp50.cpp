@@ -33,29 +33,29 @@ int main() {
 
     srand(time(0));
 
-    JPTest *jp = new JPTest();
+    JPTest jp;
 
-    jp->init_letters();
+    jp.init_letters();
 
     cout << "\n\n" << "==> 第一类型: 随机默写\n\n" << endl;
 
     for (int i = 0; i< 25; i++){
-        jp->test_letters();
+        jp.test_letters();
     }
 
     cout << "\n\n" << "==> 第二类型: 按行默写\n\n" << endl;
 
     for(int i = 0; i< 5;i++){
-        jp->test_rows();
+        jp.test_rows();
     }
 
     cout << "\n\n" << "==> 第三类型: 按段默写\n\n" << endl;
 
     for(int i = 0; i< 3;i++){
-        jp->test_columns();
+        jp.test_columns();
     }
 
-    jp->result();
+    jp.result();
 
     return 0;
 }

@@ -17,74 +17,74 @@ namespace jp50{
     void JPTest::init_letters(){
 
         // a
-        this->letters[0] = new Letter("あ","ｱ","a");
-        this->letters[1] = new Letter("い","イ","i");
-        this->letters[2] = new Letter("う","ウ","u");
-        this->letters[3] = new Letter("え","エ","e");
-        this->letters[4] = new Letter("お","オ","o");
+        letters[0] = new Letter("あ","ｱ","a");
+        letters[1] = new Letter("い","イ","i");
+        letters[2] = new Letter("う","ウ","u");
+        letters[3] = new Letter("え","エ","e");
+        letters[4] = new Letter("お","オ","o");
 
         //ka
-        this->letters[5] = new Letter("か","カ","ka");
-        this->letters[6] = new Letter("き","キ","ki");
-        this->letters[7] = new Letter("く","ク","ku");
-        this->letters[8] = new Letter("け","ケ","ke");
-        this->letters[9] = new Letter("こ","コ","ko");
+        letters[5] = new Letter("か","カ","ka");
+        letters[6] = new Letter("き","キ","ki");
+        letters[7] = new Letter("く","ク","ku");
+        letters[8] = new Letter("け","ケ","ke");
+        letters[9] = new Letter("こ","コ","ko");
 
         //sa
-        this->letters[10] = new Letter("さ","サ","sa");
-        this->letters[11] = new Letter("し","シ","shi");
-        this->letters[12] = new Letter("す","ス","su");
-        this->letters[13] = new Letter("せ","セ","se");
-        this->letters[14] = new Letter("そ","ソ","so");
+        letters[10] = new Letter("さ","サ","sa");
+        letters[11] = new Letter("し","シ","shi");
+        letters[12] = new Letter("す","ス","su");
+        letters[13] = new Letter("せ","セ","se");
+        letters[14] = new Letter("そ","ソ","so");
 
         //ta
-        this->letters[15] = new Letter("た","タ","ta");
-        this->letters[16] = new Letter("ち","チ","chi");
-        this->letters[17] = new Letter("つ","ツ","tu");
-        this->letters[18] = new Letter("て","テ","te");
-        this->letters[19] = new Letter("と","ト","to");
+        letters[15] = new Letter("た","タ","ta");
+        letters[16] = new Letter("ち","チ","chi");
+        letters[17] = new Letter("つ","ツ","tu");
+        letters[18] = new Letter("て","テ","te");
+        letters[19] = new Letter("と","ト","to");
 
         //na
-        this->letters[20] = new Letter("な","ナ","na");
-        this->letters[21] = new Letter("に","ニ","ni");
-        this->letters[22] = new Letter("ぬ","ヌ","nu");
-        this->letters[23] = new Letter("ね","ネ","ne");
-        this->letters[24] = new Letter("の","ノ","no");
+        letters[20] = new Letter("な","ナ","na");
+        letters[21] = new Letter("に","ニ","ni");
+        letters[22] = new Letter("ぬ","ヌ","nu");
+        letters[23] = new Letter("ね","ネ","ne");
+        letters[24] = new Letter("の","ノ","no");
 
         //ha
-        this->letters[25] = new Letter("は","ハ","ha");
-        this->letters[26] = new Letter("ひ","ヒ","hi");
-        this->letters[27] = new Letter("ふ","フ","hu");
-        this->letters[28] = new Letter("へ","ヘ","he");
-        this->letters[29] = new Letter("ほ","ホ","ho");
+        letters[25] = new Letter("は","ハ","ha");
+        letters[26] = new Letter("ひ","ヒ","hi");
+        letters[27] = new Letter("ふ","フ","hu");
+        letters[28] = new Letter("へ","ヘ","he");
+        letters[29] = new Letter("ほ","ホ","ho");
 
         //ma
-        this->letters[30] = new Letter("ま","マ","ma");
-        this->letters[31] = new Letter("み","ミ","mi");
-        this->letters[32] = new Letter("む","ム","mu");
-        this->letters[33] = new Letter("め","メ","me");
-        this->letters[34] = new Letter("も","モ","mo");
+        letters[30] = new Letter("ま","マ","ma");
+        letters[31] = new Letter("み","ミ","mi");
+        letters[32] = new Letter("む","ム","mu");
+        letters[33] = new Letter("め","メ","me");
+        letters[34] = new Letter("も","モ","mo");
 
         //ya
-        this->letters[35] = new Letter("や","ヤ","ya");
-        this->letters[36] = new Letter("い","イ","i");
-        this->letters[37] = new Letter("ゆ","ユ","yu");
-        this->letters[38] = new Letter("え","エ","e");
-        this->letters[39] = new Letter("よ","ヨ","yo");
+        letters[35] = new Letter("や","ヤ","ya");
+        letters[36] = new Letter("い","イ","i");
+        letters[37] = new Letter("ゆ","ユ","yu");
+        letters[38] = new Letter("え","エ","e");
+        letters[39] = new Letter("よ","ヨ","yo");
 
         //ra
-        this->letters[40] = new Letter("ら","ラ","ra");
-        this->letters[41] = new Letter("り","リ","ri");
-        this->letters[42] = new Letter("る","ル","ru");
-        this->letters[43] = new Letter("れ","レ","re");
-        this->letters[44] = new Letter("ろ","ロ","ro");
+        letters[40] = new Letter("ら","ラ","ra");
+        letters[41] = new Letter("り","リ","ri");
+        letters[42] = new Letter("る","ル","ru");
+        letters[43] = new Letter("れ","レ","re");
+        letters[44] = new Letter("ろ","ロ","ro");
 
         //wa
-        this->letters[45] = new Letter("わ","ワ","wa");
-        this->letters[46] = new Letter("い","イ","i");
-        this->letters[47] = new Letter("う","ウ","u");
-        this->letters[48] = new Letter("え","エ","e");
-        this->letters[49] = new Letter("を","ヲ","wo");
+        letters[45] = new Letter("わ","ワ","wa");
+        letters[46] = new Letter("い","イ","i");
+        letters[47] = new Letter("う","ウ","u");
+        letters[48] = new Letter("え","エ","e");
+        letters[49] = new Letter("を","ヲ","wo");
 
 
     }
@@ -99,7 +99,7 @@ namespace jp50{
 
         random = rand() % 50;
 
-        Letter *p = this->letters[random];
+        Letter *p = letters[random];
 
         random = rand() % 3;
 
@@ -152,10 +152,10 @@ namespace jp50{
         }
 
 
-        cout << "\n\n===>默写出 " << this->letters[index]->get_roman() << " 行: " << endl;
+        cout << "\n\n===>默写出 " << letters[index]->get_roman() << " 行: " << endl;
 
         for(int i = 0; i <= 4; i++){
-            p = this->letters[index+i];
+            p = letters[index+i];
             p->test_roman();
         }
 
@@ -170,10 +170,10 @@ namespace jp50{
 
         random = rand() % 5;
 
-        cout << "\n\n===>默写出 " << this->letters[random]->get_roman() << " 段: " << endl;
+        cout << "\n\n===>默写出 " << letters[random]->get_roman() << " 段: " << endl;
 
         for(int i=0;i<=9;i++){
-            p = this->letters[random+i*5];
+            p = letters[random+i*5];
             p->test_roman();
         }
 
@@ -190,7 +190,7 @@ namespace jp50{
                 cout << endl;
             }
 
-            p = this->letters[i];
+            p = letters[i];
             p->display();
 
         }
